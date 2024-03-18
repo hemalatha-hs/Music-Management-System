@@ -1,0 +1,46 @@
+DeletePlaylist.css
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .h2 {
+    color: white;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  option {
+    color: black; 
+  }
+  
+  .delete-song-button {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+
+  .h2{
+    color: black;
+  }
+  
+  

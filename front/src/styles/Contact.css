@@ -1,0 +1,35 @@
+.contactus {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('home.jpg'); 
+  background-size: cover;
+}
+
+.page {
+  padding: 20px;
+  
+
+}
+
+.contact {
+  color: white;
+  font-size: 24px;
+  text-size-adjust: 200px;
+  /* margin-bottom: 10px; */
+  /* text-align: center; */
+}
+
+h5 {
+  color: rgba(255, 255, 255, 0.751);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}

@@ -1,0 +1,41 @@
+.album-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .album-table th,
+  .album-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .album-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* .album-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+  
+  .album-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .album-table tbody tr td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .album-list-container {
+    margin: 0 auto; 
+    width: 60%; 
+  }
+
+  .h1{
+    color: white;
+  }
+  

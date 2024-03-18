@@ -1,0 +1,56 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('home.jpg'); 
+    background-size: cover;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .login-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .home_button {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .home_button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  

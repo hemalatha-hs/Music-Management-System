@@ -1,0 +1,69 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: normal;
+  }
+  h2{
+    color: black;
+  }
+  
+  .form-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  .row{
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */
+
+  /* AddSong.css */
+
+.add-song-button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-song-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+  

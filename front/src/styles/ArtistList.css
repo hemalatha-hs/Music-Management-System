@@ -1,0 +1,28 @@
+.artist-table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+
+  .artist-list-container {
+    margin: 0 auto; 
+    width: 60%; 
+  }
+  
+  .artist-table th{
+    padding: 8px;
+    text-align: left;
+    color: black;
+  }
+  .artist-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .artist-table th {
+    background-color: #f2f2f2;
+  }
+
+  .h1{
+    color: white;
+  }

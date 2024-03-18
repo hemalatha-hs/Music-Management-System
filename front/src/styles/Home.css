@@ -1,0 +1,53 @@
+/* Home.css */
+
+/* Style for the container */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('main1.jpg'); 
+    max-width: 100%;
+    background-size: cover;
+    
+
+  }
+  
+  
+ 
+ .h {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* .pa {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: black;
+    color-scheme: black;
+  } */
+  
+  
+.l{
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* blue color */
+    color: #fff; /* white text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for the buttons */
+  .l:hover {
+    background-color: #0056b3; /* darker blue on hover */
+  }
+  
+  /* Align buttons horizontally */
+  div > * {
+    margin-right: 10px;
+  }
+  

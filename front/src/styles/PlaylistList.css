@@ -1,0 +1,29 @@
+/* PlaylistList.css */
+
+.playlist-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .playlist-table th{
+    padding: 8px;
+    text-align: left;
+    color: black;
+  } 
+
+  .playlist-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .playlist-table th {
+    background-color: #f2f2f2;
+  }
+  .h1{
+    color: white;
+  }
+  .playlist-list-container {
+    margin: 0 auto; 
+    width: 60%; 
+  }
