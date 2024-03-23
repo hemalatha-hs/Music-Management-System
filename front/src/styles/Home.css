@@ -1,6 +1,4 @@
 /* Home.css */
-
-/* Style for the container */
 .container1 {
     display: flex;
     flex-direction: column;
@@ -10,44 +8,56 @@
     background-image: url('main1.jpg'); 
     max-width: 100%;
     background-size: cover;
-    
-
   }
   
-  
- 
- .h {
+  .h {
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
   
-  /* .pa {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: black;
-    color-scheme: black;
-  } */
+  .pa {
+    font-size: 16px;
+    color: #333; 
+    margin-bottom: 20px; 
+  }
   
-  
-.l{
+  .l {
     margin-right: 10px;
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #007bff; /* blue color */
-    color: #fff; /* white text */
+    background-color: #007bff; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
-  /* Hover effect for the buttons */
   .l:hover {
-    background-color: #0056b3; /* darker blue on hover */
+    background-color: #0056b3; 
   }
   
-  /* Align buttons horizontally */
+  w
   div > * {
     margin-right: 10px;
   }
+  
+  div > .l {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+
+
+  /* Home.css */
+.m {
+    margin-right: 10px; 
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .m:hover {
+    text-decoration: underline; /* Underline the link on hover */
+  }
+  
   

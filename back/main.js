@@ -22,7 +22,6 @@ const transporter = nodemailer.createTransport({
 });
 
 // Routes
-
 app.post('/signup', (req, res) => {
   const sql = "INSERT INTO signup (`name`, `email`, `password`) VALUES (?, ?, ?)";
   const values = [
@@ -387,5 +386,5 @@ app.delete("/playlists/:id", (req, res) => {
 
 const PORT = 8080;
 app.listen(PORT, () => {
-  console.log(`Server started at port ${PORT}. Open in browser using http://localhost:${PORT}`);
+  console.log(`Server started at port ${PORT}.`);
 });

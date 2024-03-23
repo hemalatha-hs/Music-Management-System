@@ -3,11 +3,10 @@ var mysql = require('mysql');
 // Create MySQL connection
 var connection = mysql.createConnection({
   host: "127.0.0.1",
-  user: "root",
-  password: "",
-  database: "mms" // Change to your database name
+  user: "system",
+  password: "sahyadri@123",
+  database: "mms" 
 });
-
 
 // Connect to MySQL
 connection.connect((err) => {

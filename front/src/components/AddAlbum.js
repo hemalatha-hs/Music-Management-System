@@ -25,7 +25,6 @@ const AddAlbum = () => {
       .then((response) => {
         console.log("Album added successfully:", response.data);
         alert("Album added successfully!");
-        // Reset the form after successful submission
         setFormData({
           album_id: "",
           title: "",

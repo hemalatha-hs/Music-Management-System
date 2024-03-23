@@ -12,11 +12,10 @@ const AddSong = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    // Optional validation for number inputs (length, song_id)
     if (name === "length" || name === "song_id") {
       const isNumber = !isNaN(value);
       if (!isNumber) {
-        return; // Prevent invalid numbers
+        return; 
       }
     }
 
@@ -28,9 +27,6 @@ const AddSong = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Optional: Show loading state (e.g., disable button, display spinner)
-    // ...
 
     try {
       const response = await axios.post("http://localhost:8080/add_song", formData);
@@ -47,7 +43,6 @@ const AddSong = () => {
       alert("Error adding the song!");
     } finally {
       // Optional: Hide loading state
-      // ...
     }
   };
 

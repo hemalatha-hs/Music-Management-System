@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/PlaylistList.css'; 
@@ -22,7 +21,7 @@ const PlaylistList = () => {
   return (
     <div className="playlist-list-container">
       <h2 className='h1'>Playlist List</h2>
-      <table className="playlist-table"> {/* Add className for styling */}
+      <table className="playlist-table"> 
         <thead>
           <tr>
             <th>Playlist ID</th>
