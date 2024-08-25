@@ -1,7 +1,7 @@
 # Music Management System!
 The Music Management System is a user-friendly platform designed to manage and organize musical content. It allows users to create, read, update, and delete (CRUD) information about artists, albums, songs, and playlists. Users can add new artists, view their details, and delete them as needed. Similarly, they can manage albums by creating new ones, viewing album information, updating details, and deleting albums. The system also enables users to handle songs by adding, viewing, updating, and deleting them. Additionally, users can create and manage playlists, making it easy to maintain and organize their music library.
 
-[welcome page](https://github.com/user-attachments/assets/899b550e-0ca4-4348-82c0-d3a3105a2308)
+![welcome page](https://github.com/user-attachments/assets/f57251ca-ae86-4bcf-89cb-91adf621f896)
 ![login ](https://github.com/user-attachments/assets/5ee03f60-f53d-4616-a348-9d7002823342)
 ![login with error](https://github.com/user-attachments/assets/00e2b994-7f99-4bd3-967a-89021306edd5)
 ![album add](https://github.com/user-attachments/assets/993eddd9-994d-4f68-91e2-5dc88720a692)
